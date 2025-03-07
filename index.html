@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Homestay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Karma Thutop Homestay</h1>
+            <nav>
+                <ul>
+                    <li><a href="./public/about.html">About</a></li>
+                    <li><a href="./rooms.html">Rooms</a></li>
+                    <li><a href="./galary.html">Gallery</a></li>
+                    <li><a href="./public/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Our Homestay</h2>
+            <p>We offer a peaceful and comfortable stay in the heart of nature. Come and experience a cozy retreat with modern amenities.</p>
+        </div>
+    </section>
+
+    <section id="rooms">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="room">
+                <h3>Standard Room</h3>
+                <p>A cozy room with all the basic amenities for a comfortable stay.</p>
+            </div>
+            <div class="room">
+                <h3>Deluxe Room</h3>
+                <p>Experience luxury with a spacious room and extra comforts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="images">
+                <img src="./assets/images/gal1.jpg" alt="Room 1">
+                <img src="./assets/images/gal2.jpg" alt="Room 2">
+                <img src="./assets/images/gal3.jpg" alt="Room 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Simple Homestay. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
