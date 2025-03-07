@@ -23,7 +23,7 @@ header {
 
 header h1 {
   text-align: center;
-  padding: 30px 0;
+  padding: 30px;
   background-image: url('./assets/images/kanchen4.jpg'); /* Path to your mountain image */
   background-size: cover; /* Ensures the image covers the entire background of h1 */
   background-position: center; /* Ensures the image is centered */
